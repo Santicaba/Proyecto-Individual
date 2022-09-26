@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Orbitron&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;}
+    
+
+
+
+body{
+    
+}
+
+    
+/* The header of the page. */
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255 );
+    padding: 40px;
+    
+    
+    
+}
+
+
+
+
+/* The container of the menu. */
+.container__menu{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+/* Aligning the logo to the center of the header. */
+.container__menu .logo{
+    /*height: 100%;*/
+
+    display: flex;
+    align-items: center;
+    
+}
+.container__menu .logo img{
+    width: 150px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+/* Setting the width of the image to 60px. */
+.container__menu .logo h2{
+    /*width: 100px;*/
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-family: 'Alfa Slab One', cursive;
+}
+.container__menu .logo span{
+    color: rgb(255, 0, 149);
+    font-family: 'Alfa Slab One', cursive;
+    display: inline;
+}
+
+
+/* Aligning the menu to the center of the header. */
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+/* Making the list items in the menu display in a row. */
+.menu ul{
+    display: flex;
+    
+}
+
+/* Making the list items in the menu display in a row. */
+.menu ul li{
+    list-style: none;
+    position: relative;
+    padding: 13px 13px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.menu  nav ul :hover{
+    background-color: pink;
+    transition: .8s;
+}
+
+/* Styling the links in the menu. */
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+    
+}
+
+/* Changing the color of the links in the menu when the mouse is over them. */
+
+
+/*COVER*/
+
+
+/* Setting the background image of the cover. */
+.container__cover{
+    width: 100%;
+    height: 800px;
+    background-color: #f1eded;
+    padding: 40px;
+    background-image: url(/img/headsets-1971383_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-image:;
+}
+
+.cover{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__cover .text{
+    max-width: 400px;
+
+}
+
+.container__cover .text h1{
+    font-size: 55px;
+    font-weight: 600;
+    color:black;
+    font-weight: 800;
+    font-family: 'Rampart One', cursive;
+
+}
+
+.container__cover .text h2{
+    font-size: 16px;
+    margin-top: 40px;
+    color:black;
+    font-weight: 300;
+    font-family: 'Alfa Slab One', cursive;
+
+
+}
+
+
+.cover{
+    display: flex;
+    justify-content: center;
+}
+
+.container__cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: linear-gradient(to right,#fab2b2,#f54d4d);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #f54d4d ;
+    transition: all 300ms;
+    font-family: josefin-sans, sans-serif;
+}
+
+.container__cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px
+}
+
+.container__cover .svg img{
+    width: 400px;
+    animation: move-vector 4s linear infinite;
+}
+
+
+    /* CURSOS*/
+
+
+.talleres h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 200px;
+    margin-bottom: 80px;
+    color:  black;
+    font-size: 25px;
+    font-weight: 1000;   
+
+}
+
+.talleres h3{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: rgb(148, 133, 133);
+    background-color: white;
+    
+}
+
+
+
+
+
+
+.container__cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    background-image: url(/);
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: ;
+    
+
+}
+
+
+
+.container__cards div{
+    padding: 1em;
+    
+    border-radius: 30px 30px 30px 30px;
+}
+.container__cards div .card{
+    background-color: rgb(27, 24, 24);
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    
+    
+}
+
+.container__cards .card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 19px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: black;
+}
+
+.container__cards .card p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+
+
+        /*NOSOTROS*/
+
+.sobrenosotros h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+    font-family: 'Dangrek', cursive;
+    background: linear-gradient(#654EA3,#EAAFC8);
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+.sobrenosotros p{
+    line-height: 24px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: grey);
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*SECCION DE IMAGENES*/
+
+.titulo-seccionimg h4{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Dangrek', cursive;
+    background: linear-gradient(#654EA3,#EAAFC8);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    /*SLIDER*/
+
+.slider{
+    width: 99%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 96%;
+    height: 87%;
+}
+
+@keyframes cambio { 
+    0%{
+        margin-left: 0;
+    }
+    20%{
+        margin-left: 0;
+    }
+    25%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+    100%{
+        margin-left: -300%;
+    }
+}
+
+.parrafemsamble p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(117, 117, 117);
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+
+  /*FOOTER*/
+
+footer{
+    background-color:rgb(255, 246, 246);
+    height: auto;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: black;
+    font-family: 'Dangrek', cursive;
+}
+
+.footer-content span{
+    font-family: 'Dangrek', cursive;
+    color:rgb(255, 0, 149) ;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: black;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+
+.socials .color1 a i  {
+    
+    color: #3b5998;
+
+}
+
+.socials .color2 a i{
+    color: #ff0080;
+}
+
+.socials .color3 a i{
+    color:#5EA9DD ;
+}
+
+.socials .color4 a i{
+    color: #cd201f;
+}
+
+
+    /*HOVER*/
+
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+
+.socials .color1 a i:hover  {
+    
+    color: #184dc0;
+
+}
+
+.socials .color2 a i:hover{
+    color: #f83b99;
+}
+
+.socials .color3 a i:hover{
+    color:#0896fc ;
+}
+
+.socials .color4 a i:hover{
+    color: #ff0000;
+}
+
+
+
+.footer-bottom{
+    background: rgb(255, 255, 255);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+
+
+    /*MEDIA QUERY*/
+
+
+@media screen and (max-width: 608px) {
+    .menu nav .column ul {
+            display: block;
+            
+        }
+}
+
+@media screen and (min-width: 609px){
+    
+    .container__menu .logo span{ 
+        display: flex;
+        padding-left: 40px;
+    }
+
+    
+    
+    .menu:hover{
+        color: #fab2b2;
+    }
+    
+}
+
+@media screen and (max-width: 608px){
+    header{
+        background-color: #ffd9d9;
+        height: 130px;
+    }
+    .container__menu .logo span{
+        padding-left: 40px;
+    }
+}
+
+
+@media screen and (max-width: 608px){
+
+    .menu nav .column ul li {
+        
+        border-radius: 5px;
+        letter-spacing: normal;
+        padding: 3px;
+        text-align: center;
+        color: white;
+        
+    }
+}
+
+@media screen and (max-width: 608px){
+    .menu ul li a{
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+    
+    }
+}
+@media screen and (min-width: 609px){
+    .container__menu .logo span{
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 438px){
+
+    .container__menu .logo span{
+        display: block;
+    }
+}
+

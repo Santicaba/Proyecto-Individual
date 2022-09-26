@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#BE93C5, #7BC6CC);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+/* The header of the page. */
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255 );
+    padding: 40px;
+    
+    
+    
+}
+
+
+
+
+/* The container of the menu. */
+.container__menu{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+/* Aligning the logo to the center of the header. */
+.container__menu .logo{
+    /*height: 100%;*/
+   
+    display: flex;
+    align-items: center;
+    
+}
+.container__menu .logo img{
+    width: 150px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+
+/* Setting the width of the image to 60px. */
+.container__menu .logo h2{
+    /*width: 100px;*/
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-family: 'Alfa Slab One', cursive;
+}
+.container__menu .logo span{
+    color: rgb(255, 0, 149);
+    font-family: 'Alfa Slab One', cursive;
+    display: inline;
+}
+
+
+/* Aligning the menu to the center of the header. */
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+/* Making the list items in the menu display in a row. */
+.menu ul{
+    display: flex;
+}
+
+/* Making the list items in the menu display in a row. */
+.menu ul li{
+    list-style: none;
+    margin-left: 36px;
+}
+
+/* Styling the links in the menu. */
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    background: linear-gradient(#FF9A9E,#FAD0C4);
+    -webkit-background-clip: text;
+    color: transparent; 
+    color: rgb(0, 0, 0);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+/* Changing the color of the links in the menu when the mouse is over them. */
+.menu ul li a:hover{
+   background: rgb(249, 175, 255) ;
+    border-radius: 6px;
+    border-width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 0 40px -10px black;
+    margin:calc(50vh - 220px) auto;
+    padding: 20px 30px ;
+    max-width:calc(100vw -40px) ;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    background-image: url(/img/);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2{
+    margin: 10px 0;
+    padding-bottom: 10px;
+    width: 180px;
+    color: rgb(235, 118, 118);
+    border-bottom: 3px solid black;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all .3s;
+    border-bottom: 2px solid grey;
+
+}
+
+input:focus{
+    border-bottom: 2px solid lightblue;
+}
+
+p::before{
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 16px;
+    color: rgb(39, 37, 37);
+}
+
+button{
+    float: right;
+    padding: 8px 12px;
+    margin: 25px 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid gray;
+    background: 0;
+    color: black;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+button:hover{
+    background: gray;
+    color: white;
+}
+
+
+
+div{
+    position: absolute;
+    bottom: -15px;
+    right: -20px;
+    background: black;
+    color: white;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+}
+
+span{
+    margin: 0 5px 0 15px;
+
+}
+
